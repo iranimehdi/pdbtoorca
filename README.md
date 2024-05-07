@@ -5,11 +5,8 @@ This Python code sets up multiscale calculations for the ORCA program. As descri
 
 **1. Prerequisites:**
    - Make sure you have Python 3.10 installed on your system.
-You can verify this by running python3.10 --version in your terminal. If not installed, download and install it from the official Python website (https://www.python.org/downloads/).
-
 **2. Download the program:**
    - Download the pdbtoorca.tar.gz file from the GitHub repository.
-
 **3. Extract the program files:**
    - Open your terminal.
    - Navigate to the directory containing the downloaded pdbtoorca.tar.gz file.
@@ -17,7 +14,6 @@ You can verify this by running python3.10 --version in your terminal. If not ins
      ```
      tar -xzvf pdbtoorca.tar.gz
      ```
-
 **4. Copy the program files to /usr/bin/:**
    - Navigate into the extracted pdbtoorca directory:
      ```
@@ -27,7 +23,6 @@ You can verify this by running python3.10 --version in your terminal. If not ins
      ```
      sudo cp * /usr/bin/
      ```
-
 **5. Verify installation:**
    - You can verify that the program has been installed correctly by running:
      ```
